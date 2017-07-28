@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+	<name>Contact - Add Field To Contact Form</name>
+	<author>Daniel Benitez</author>
+	<creationDate>Junio 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>dbenitez@caha.es</authorEmail>
+	<authorUrl>www.caha.es</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_ADD_CONTACT_FIELD_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="addcontactfield">addcontactfield.php</filename>
+		<filename>index.html</filename>
+		<filename>forms/contact.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_addcontactfield.ini</language>
+		<language tag="es-ES">es-ES.plg_content_addcontactfield.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+ 
+			<fieldset name="basic">
+			
+			</fieldset>
+ 
+		</fields>
+	</config>
+</extension>

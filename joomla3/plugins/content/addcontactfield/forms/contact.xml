@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="params" label="PLG_CONTENT_ADDCONTACTFIELD_FIELDSET_LABEL">
+			<field
+				name="contact_email2"
+				type="text"
+				label="PLG_CONTENT_ADDCONTACTFIELD_EMAIL2"
+				filter="email"
+			/>
+		</fieldset>
+	</fields>
+</form>
